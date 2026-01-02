@@ -1,60 +1,129 @@
-# Data Warehouse and Analytics Project
+# 📊 Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository!   
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+## 📌 Project Summary
+
+This project demonstrates the design and implementation of a **modern data warehouse** using **SQL Server**, following **Medallion Architecture (Bronze, Silver, Gold)**.
+It showcases end-to-end **data engineering and analytics workflows**, from raw data ingestion to business-ready analytical insights.
+
+📌 **Tech Stack:** SQL Server, T-SQL
+📌 **Architecture:** Medallion (Bronze, Silver, Gold)
+📌 **Data Sources:** ERP & CRM (CSV files)
+📌 **Focus Areas:** ETL, Data Modeling, Data Quality, Analytics
 
 ---
+
 ## 🏗️ Data Architecture
+<img width="1544" height="912" alt="data_architecture" src="https://github.com/user-attachments/assets/c8dd4560-b910-4259-b0e4-219505d3c9d6" />
 
-The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+The project follows the **Medallion Architecture** approach:
 
-1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+### 🔹 Bronze Layer
+
+* Stores raw data ingested directly from source systems
+* Data loaded from **ERP and CRM CSV files** into SQL Server
+* No transformations applied
+
+### 🔹 Silver Layer
+
+* Data cleansing and standardization
+* Handling missing values and data inconsistencies
+* Normalized and structured data for downstream processing
+
+### 🔹 Gold Layer
+
+* Business-ready data modeled using a **Star Schema**
+* Fact and Dimension tables optimized for analytical queries
+* Designed to support reporting and decision-making
 
 ---
+
 ## 📖 Project Overview
 
-This project involves:
+This project covers the complete data lifecycle:
 
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+* **Data Architecture**
+  Designing a scalable and maintainable data warehouse using Medallion Architecture
 
+* **ETL Pipelines**
+  Extracting, transforming, and loading data using T-SQL
+
+* **Data Modeling**
+  Creating fact and dimension tables for analytics and reporting
+
+* **Analytics & Reporting**
+  Writing SQL queries to generate actionable business insights
+
+---
+
+## 🔧 Skills Demonstrated
+
+* Data Warehousing Concepts
+* Medallion Architecture (Bronze, Silver, Gold)
+* ETL Design & Implementation (T-SQL)
+* Data Cleaning & Quality Validation
+* Star Schema Data Modeling
+* SQL-Based Analytics & Reporting
+
+---
+
+## 📊 Analytics Use Cases
+
+The Gold layer enables analytical insights such as:
+
+* Customer behavior analysis
+* Product performance evaluation
+* Sales trend analysis
+* Key business metrics for decision-making
+
+---
 
 ## 🚀 Project Requirements
 
-### Building the Data Warehouse (Data Engineering)
+### 🔹 Objective
 
-#### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+Build a modern data warehouse using **SQL Server** to consolidate sales data and support analytical reporting.
 
-#### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+### 🔹 Specifications
+
+* **Data Sources:** ERP & CRM systems provided as CSV files
+* **Data Quality:** Data cleansing and validation prior to analysis
+* **Integration:** Unified analytical data model
+* **Scope:** Latest dataset only (no historization)
+* **Documentation:** Clear data model documentation for stakeholders
 
 ---
 
-### BI: Analytics & Reporting (Data Analysis)
+## 📂 Repository Structure
 
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
+```
+datasets/   → Source CSV files (ERP & CRM)
+scripts/    → SQL scripts for ETL and data modeling
+tests/      → Data quality and validation checks
+docs/       → Data catalog and documentation
+```
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+---
 
+## ▶️ How to Run the Project
+
+1. Load the CSV files into SQL Server
+2. Execute Bronze layer ingestion scripts
+3. Run Silver layer transformation scripts
+4. Create Gold layer fact and dimension tables
+5. Execute analytics queries for insights
+
+---
 
 ## 🛡️ License
 
-This project is licensed under the [MIT License](LICENSE). 
+This project is licensed under the **MIT License**.
+
+---
 
 ## 🌟 About Me
 
-Hi there! I'm **Lavanya**.. I’m an IT professional and passionate Data Analyst on a mission to a passionate data analyst focused on continuous learning and growth in the data field. 
+Hi, I’m **Lavanya** 👋
+I’m an IT professional and aspiring **Data Analyst** passionate about building data-driven solutions.
+I enjoy working with SQL, data warehousing, and analytics to transform raw data into meaningful insights.
+This project is part of my portfolio to demonstrate hands-on experience in **data engineering and analytics**.
 
