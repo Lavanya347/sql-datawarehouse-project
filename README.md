@@ -129,7 +129,7 @@ This project is part of my portfolio to demonstrate hands-on experience in **dat
 
 ## 🔗 Connect with Me
 
-📄 **[View My Resume](https://github.com/Lavanya347/lavanya347.github.io/blob/main/Assets/Lavanya_Data_Analyst_Resume.pdf)**  
+📄 **[View My Resume](https://lavanya347.github.io/Assets/Lavanya_Data_Analyst_Resume.pdf)**  
 🔗 **[LinkedIn Profile](https://www.linkedin.com/in/lavanya-lk)**  
 📧 **Email:** lavanya347@gmail.com  
 🧑‍💻 **[Portfolio](https://lavanya347.github.io/)**
