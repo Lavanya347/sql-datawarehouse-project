@@ -5,10 +5,10 @@
 This project demonstrates the design and implementation of a **modern data warehouse** using **SQL Server**, following **Medallion Architecture (Bronze, Silver, Gold)**.
 It showcases end-to-end **data engineering and analytics workflows**, from raw data ingestion to business-ready analytical insights.
 
-📌 **Tech Stack:** SQL Server, T-SQL
-📌 **Architecture:** Medallion (Bronze, Silver, Gold)
-📌 **Data Sources:** ERP & CRM (CSV files)
-📌 **Focus Areas:** ETL, Data Modeling, Data Quality, Analytics
+**Tech Stack:** SQL Server, T-SQL
+**Architecture:** Medallion (Bronze, Silver, Gold)
+**Data Sources:** ERP & CRM (CSV files)
+**Focus Areas:** ETL, Data Modeling, Data Quality, Analytics
 
 ---
 
@@ -126,4 +126,13 @@ Hi, I’m **Lavanya** 👋
 I’m an IT professional and aspiring **Data Analyst** passionate about building data-driven solutions.
 I enjoy working with SQL, data warehousing, and analytics to transform raw data into meaningful insights.
 This project is part of my portfolio to demonstrate hands-on experience in **data engineering and analytics**.
+
+## 🔗 Connect with Me
+
+📄 **[View My Resume]([https://drive.google.com/file/d/1AbCxyz123Example](https://github.com/Lavanya347/lavanya347.github.io/blob/main/Assets/Lavanya_Data_Analyst_Resume.pdf))**  
+🔗 **[LinkedIn Profile](www.linkedin.com/in/lavanya-lk)**  
+📫 **Email:** lavanya347@gmail.com
+🧑‍💻 **[Portfolio]([https://your-portfolio-url.com](https://lavanya347.github.io/))**
+
+
 
